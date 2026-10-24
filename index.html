@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | VillagKart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="icon" type="image/png" href="/static/favicon.png"/>
+  <link rel="stylesheet" href="/static/style.css"/>
+  <link rel="stylesheet" href="/static/banner.css"/>
+</head>
+<body>
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="/" class="nav-logo">
+      <img src="/static/logo.png" alt="VillagKart Logo" class="nav-logo-img"/>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/" class="active">Home</a></li>
+      <li><a href="/about" class="">About</a></li>
+      <li><a href="/model" class="">Hub Model</a></li>
+      <li><a href="/ecosystem" class="">Ecosystem</a></li>
+      <li><a href="/partners" class="">Partners</a></li>
+      <li><a href="/blog" class="">Blog</a></li>
+      <li><a href="/contact" class="btn-nav">Contact Us</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+
+<section class="banner-slider" id="bannerSlider">
+  <div class="banner-track">
+    <div class="banner-slide active" style="background:linear-gradient(135deg, rgba(10,46,20,0.82) 0%, rgba(26,92,46,0.75) 40%, rgba(13,61,26,0.85) 100%)" data-index="0">
+      <div class="banner-img-overlay" style="background-image:url('/static/banners/banner1.jpg')"></div>
+      <div class="banner-bg-pattern"></div>
+      <div class="banner-content">
+        <div class="banner-badge"><i class="fas fa-map-marker-alt"></i> Serving Rural Bharat</div>
+        <h1 class="banner-title">Empowering Villages. Connecting Bharat.</h1>
+        <p class="banner-subtitle">VillagKart is a technology-driven rural commerce platform transforming how villages access products, services, and business opportunities across India.</p>
+        <div class="banner-cta">
+          <a href="/partners" class="btn-primary"><i class="fas fa-handshake"></i> Join the Network</a>
+          <a href="/model" class="btn-outline"><i class="fas fa-play-circle"></i> How It Works</a>
+        </div>
+      </div>
+    </div>
+    <div class="banner-slide " style="background:linear-gradient(135deg, rgba(13,45,74,0.82) 0%, rgba(26,79,122,0.75) 40%, rgba(10,32,53,0.88) 100%)" data-index="1">
+      <div class="banner-img-overlay" style="background-image:url('/static/banners/banner2.jpg')"></div>
+      <div class="banner-bg-pattern"></div>
+      <div class="banner-content">
+        <div class="banner-badge"><i class="fas fa-map-marker-alt"></i> Hub & Spoke Network</div>
+        <h1 class="banner-title">Hub & Spoke Model for Rural India</h1>
+        <p class="banner-subtitle">Mandal-level business hubs connected to village spokes — delivering quality products to every corner of rural Bharat through Tata Ace last-mile units.</p>
+        <div class="banner-cta">
+          <a href="/model" class="btn-primary"><i class="fas fa-handshake"></i> Explore the Model</a>
+          <a href="/partners" class="btn-outline"><i class="fas fa-play-circle"></i> Partner With Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="banner-slide " style="background:linear-gradient(135deg, rgba(45,26,0,0.82) 0%, rgba(122,74,0,0.75) 40%, rgba(74,45,0,0.88) 100%)" data-index="2">
+      <div class="banner-img-overlay" style="background-image:url('/static/banners/banner3.jpg')"></div>
+      <div class="banner-bg-pattern"></div>
+      <div class="banner-content">
+        <div class="banner-badge"><i class="fas fa-map-marker-alt"></i> Rural Employment</div>
+        <h1 class="banner-title">Creating 100+ Jobs per Mandal</h1>
+        <p class="banner-subtitle">VillagKart generates direct and indirect rural employment within six months — warehouse, delivery, retail, sales, and digital commerce opportunities.</p>
+        <div class="banner-cta">
+          <a href="/about" class="btn-primary"><i class="fas fa-handshake"></i> Our Impact</a>
+          <a href="/partners" class="btn-outline"><i class="fas fa-play-circle"></i> Join as Partner</a>
+        </div>
+      </div>
+    </div>
+    <div class="banner-slide " style="background:linear-gradient(135deg, rgba(26,10,46,0.85) 0%, rgba(61,26,92,0.78) 40%, rgba(42,13,74,0.9) 100%)" data-index="3">
+      <div class="banner-img-overlay" style="background-image:url('/static/banners/banner4.jpg')"></div>
+      <div class="banner-bg-pattern"></div>
+      <div class="banner-content">
+        <div class="banner-badge"><i class="fas fa-map-marker-alt"></i> Digital Commerce</div>
+        <h1 class="banner-title">ONDC-Powered Digital Marketplace</h1>
+        <p class="banner-subtitle">Connecting rural customers with thousands of products from national sellers through ONDC integration — competitive pricing, wider choice, doorstep delivery.</p>
+        <div class="banner-cta">
+          <a href="/ecosystem" class="btn-primary"><i class="fas fa-handshake"></i> Explore Ecosystem</a>
+          <a href="/contact" class="btn-outline"><i class="fas fa-play-circle"></i> Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="banner-slide " style="background:linear-gradient(135deg, rgba(10,26,10,0.82) 0%, rgba(26,74,26,0.75) 40%, rgba(13,46,13,0.88) 100%)" data-index="4">
+      <div class="banner-img-overlay" style="background-image:url('/static/banners/banner5.jpg')"></div>
+      <div class="banner-bg-pattern"></div>
+      <div class="banner-content">
+        <div class="banner-badge"><i class="fas fa-map-marker-alt"></i> MSME & FPO Connect</div>
+        <h1 class="banner-title">Empowering MSMEs & Local Brands</h1>
+        <p class="banner-subtitle">VillagKart opens national market access for local manufacturers, MSMEs, FPOs, and village industries — digitally connecting rural producers to millions of customers.</p>
+        <div class="banner-cta">
+          <a href="/partners" class="btn-primary"><i class="fas fa-handshake"></i> Become a Supplier</a>
+          <a href="/about" class="btn-outline"><i class="fas fa-play-circle"></i> Learn More</a>
+        </div>
+      </div>
+    </div></div>
+  <button class="banner-nav prev" id="bannerPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+  <button class="banner-nav next" id="bannerNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+  <div class="banner-dots"><button class="banner-dot active" data-slide="0" aria-label="Slide 1"></button><button class="banner-dot " data-slide="1" aria-label="Slide 2"></button><button class="banner-dot " data-slide="2" aria-label="Slide 3"></button><button class="banner-dot " data-slide="3" aria-label="Slide 4"></button><button class="banner-dot " data-slide="4" aria-label="Slide 5"></button></div>
+  <div class="banner-progress"><div class="banner-progress-bar" id="bannerProgressBar"></div></div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-bar">
+  <div class="marquee-track">
+    <span><i class="fas fa-seedling"></i> Rural Commerce</span>
+    <span><i class="fas fa-truck"></i> Last-Mile Delivery</span>
+    <span><i class="fas fa-store"></i> Mini D-Mart</span>
+    <span><i class="fas fa-mobile-alt"></i> ONDC Platform</span>
+    <span><i class="fas fa-users"></i> Rural Employment</span>
+    <span><i class="fas fa-industry"></i> MSME Connect</span>
+    <span><i class="fas fa-tractor"></i> Farmer Support</span>
+    <span><i class="fas fa-boxes"></i> Hub &amp; Spoke</span>
+    <span><i class="fas fa-seedling"></i> Rural Commerce</span>
+    <span><i class="fas fa-truck"></i> Last-Mile Delivery</span>
+    <span><i class="fas fa-store"></i> Mini D-Mart</span>
+    <span><i class="fas fa-mobile-alt"></i> ONDC Platform</span>
+    <span><i class="fas fa-users"></i> Rural Employment</span>
+    <span><i class="fas fa-industry"></i> MSME Connect</span>
+    <span><i class="fas fa-tractor"></i> Farmer Support</span>
+    <span><i class="fas fa-boxes"></i> Hub &amp; Spoke</span>
+  </div>
+</div>
+
+<!-- WHAT WE DO -->
+<section class="section what-we-do">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">What We Do</div>
+      <h2>A Complete Rural Commerce Ecosystem</h2>
+      <p>VillagKart is not just an e-commerce platform — it is a complete rural business ecosystem integrating technology, logistics, and entrepreneurship.</p>
+    </div>
+    <div class="features-grid">
+    <div class="feature-card" data-aos="fade-up" data-delay="0">
+      <div class="feature-icon icon-green"><i class="fas fa-network-wired"></i></div>
+      <h3>Hub & Spoke Network</h3>
+      <p>Mandal-level business hubs connected to village-level spokes enabling efficient product movement and reduced logistics costs across rural areas.</p>
+      <a href="/model" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="feature-card" data-aos="fade-up" data-delay="100">
+      <div class="feature-icon icon-orange"><i class="fas fa-shopping-cart"></i></div>
+      <h3>ONDC Integration</h3>
+      <p>Connecting rural customers with national digital marketplaces through ONDC-enabled buyer app providing access to thousands of products.</p>
+      <a href="/ecosystem" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="feature-card" data-aos="fade-up" data-delay="200">
+      <div class="feature-icon icon-blue"><i class="fas fa-robot"></i></div>
+      <h3>AI-Powered Platform</h3>
+      <p>Intelligent demand forecasting, smart logistics optimization, AI-powered customer support, and digital onboarding for rural retailers.</p>
+      <a href="/ecosystem" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="feature-card" data-aos="fade-up" data-delay="300">
+      <div class="feature-icon icon-purple"><i class="fas fa-briefcase"></i></div>
+      <h3>Rural Entrepreneurship</h3>
+      <p>Creating opportunities for village youth and women entrepreneurs to build sustainable businesses as delivery partners, retailers, and agents.</p>
+      <a href="/partners" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="feature-card" data-aos="fade-up" data-delay="400">
+      <div class="feature-icon icon-red"><i class="fas fa-tractor"></i></div>
+      <h3>Farmer Connect</h3>
+      <p>Helping FPOs and FPCs market agricultural products effectively, connecting farmer-led enterprises with larger supply chains and digital markets.</p>
+      <a href="/partners" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="feature-card" data-aos="fade-up" data-delay="500">
+      <div class="feature-icon icon-yellow"><i class="fas fa-industry"></i></div>
+      <h3>MSME Growth</h3>
+      <p>Enabling local manufacturers and MSMEs to reach national markets and gain visibility through VillagKart's digital commerce infrastructure.</p>
+      <a href="/ecosystem" class="feature-link">Learn More <i class="fas fa-arrow-right"></i></a>
+    </div></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats-section">
+  <div class="stats-bg"></div>
+  <div class="container">
+    <div class="stats-grid">
+    <div class="stats-card">
+      <div class="stats-icon"><i class="fas fa-warehouse"></i></div>
+      <div class="stats-info">
+        <div class="stats-number" data-target="100">0</div>
+        <div class="stats-label">Jobs per Mandal</div>
+      </div>
+    </div>
+    <div class="stats-card">
+      <div class="stats-icon"><i class="fas fa-truck"></i></div>
+      <div class="stats-info">
+        <div class="stats-number" data-target="6">0</div>
+        <div class="stats-label">Months to Full Hub</div>
+      </div>
+    </div>
+    <div class="stats-card">
+      <div class="stats-icon"><i class="fas fa-boxes"></i></div>
+      <div class="stats-info">
+        <div class="stats-number" data-target="12">0</div>
+        <div class="stats-label">Product Categories</div>
+      </div>
+    </div>
+    <div class="stats-card">
+      <div class="stats-icon"><i class="fas fa-users"></i></div>
+      <div class="stats-info">
+        <div class="stats-number" data-target="5">0</div>
+        <div class="stats-label">Stakeholder Types</div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section how-it-works">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">How It Works</div>
+      <h2>The VillagKart Journey</h2>
+      <p>From order to delivery — a seamless rural commerce experience powered by technology and local networks.</p>
+    </div>
+    <div class="journey-steps">
+      <div class="journey-step">
+        <div class="step-number">01</div>
+        <div class="step-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Customer Orders</h3>
+        <p>Rural customers browse and order products through the VillagKart mobile app or ONDC-enabled buyer platform.</p>
+      </div>
+      <div class="journey-arrow"><i class="fas fa-chevron-right"></i></div>
+      <div class="journey-step">
+        <div class="step-number">02</div>
+        <div class="step-icon"><i class="fas fa-warehouse"></i></div>
+        <h3>Mandal Hub Processes</h3>
+        <p>Orders are received at the nearest Mandal-level business hub for processing, inventory allocation, and dispatch.</p>
+      </div>
+      <div class="journey-arrow"><i class="fas fa-chevron-right"></i></div>
+      <div class="journey-step">
+        <div class="step-number">03</div>
+        <div class="step-icon"><i class="fas fa-truck"></i></div>
+        <h3>Village Delivery</h3>
+        <p>Tata Ace delivery units carry out last-mile delivery directly to villages, ensuring efficient and timely fulfillment.</p>
+      </div>
+      <div class="journey-arrow"><i class="fas fa-chevron-right"></i></div>
+      <div class="journey-step">
+        <div class="step-number">04</div>
+        <div class="step-icon"><i class="fas fa-smile"></i></div>
+        <h3>Customer Delight</h3>
+        <p>Customers receive quality products at competitive prices, with digital receipts and order tracking via the app.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="section categories-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Product Range</div>
+      <h2>Everything a Village Needs</h2>
+      <p>Our Mini D-Mart hubs stock all essential product categories — a one-stop solution for rural India.</p>
+    </div>
+    <div class="categories-grid">
+      <div class="cat-card"><div class="cat-icon"><i class="fas fa-shopping-basket"></i></div><span>Groceries &amp; FMCG</span></div>
+      <div class="cat-card"><div class="cat-icon"><i class="fas fa-home"></i></div><span>Household Essentials</span></div>
+      <div class="cat-card"><div class="cat-icon"><i class="fas fa-cookie-bite"></i></div><span>Packaged Foods</span></div>
+      <div class="cat-card"><div class="cat-icon"><i class="fas fa-utensils"></i></div><span>Kitchenware</span></div>
+      <div class="cat-card"><div class="cat-icon"><i class="fas fa-tv"></i></div><span>Electronics</span></div>
+      <div class="cat-card"><div class="cat-icon"><i class="fas fa-tshirt"></i></div><span>Fashion &amp; Lifestyle</span></div>
+      <div class="cat-card"><div class="cat-icon"><i class="fas fa-tractor"></i></div><span>Agricultural Products</span></div>
+      <div class="cat-card"><div class="cat-icon"><i class="fas fa-pencil-alt"></i></div><span>Stationery</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section class="section community-section">
+  <div class="container">
+    <div class="community-grid">
+      <div class="community-content">
+        <div class="section-badge">Our Community</div>
+        <h2>Empowering Every Voice in Rural India</h2>
+        <p>VillagKart builds a collaborative ecosystem where farmers, women entrepreneurs, artisans, and local businesses thrive together.</p>
+        <div class="community-list">
+          <div class="community-item"><div class="ci-icon"><i class="fas fa-female"></i></div><div><strong>Women Entrepreneurs</strong><p>Supporting rural women to become retailers, distributors, and local business leaders.</p></div></div>
+          <div class="community-item"><div class="ci-icon"><i class="fas fa-tractor"></i></div><div><strong>Farmer Producer Organizations</strong><p>Helping FPOs market agricultural products more effectively through digital commerce.</p></div></div>
+          <div class="community-item"><div class="ci-icon"><i class="fas fa-paint-brush"></i></div><div><strong>Khadi &amp; Village Industries</strong><p>Promoting traditional village industries and artisan products to national markets.</p></div></div>
+        </div>
+        <a href="/partners" class="btn-primary" style="display:inline-flex;margin-top:1.5rem;">Join the Community <i class="fas fa-arrow-right" style="margin-left:8px;"></i></a>
+      </div>
+      <div class="community-visual">
+        <div class="cv-card top-right"><i class="fas fa-female" style="color:#e91e8c;font-size:1.5rem;"></i><div><strong>Women Led</strong><span>500+ Entrepreneurs</span></div></div>
+        <div class="cv-card bottom-left"><i class="fas fa-leaf" style="color:#4caf50;font-size:1.5rem;"></i><div><strong>Eco Friendly</strong><span>Sustainable Commerce</span></div></div>
+        <div class="cv-main-img"><div class="cv-blob"><div class="cv-center-content"><i class="fas fa-hands-helping" style="font-size:3.5rem;color:#fff;"></i><p style="color:#fff;font-weight:700;margin-top:0.5rem;">Rural Community</p></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-banner">
+  <div class="cta-bg-pattern"></div>
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Join the VillagKart Network?</h2>
+      <p>Be part of India's most powerful rural commerce revolution. Partner with us as a retailer, delivery partner, supplier, or hub operator.</p>
+      <div class="cta-buttons">
+        <a href="/partners" class="btn-white"><i class="fas fa-handshake"></i> Become a Partner</a>
+        <a href="/contact" class="btn-outline-white"><i class="fas fa-envelope"></i> Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <img src="/static/logo.png" alt="VillagKart" class="footer-logo-img"/>
+      </div>
+      <p>Empowering Villages. Connecting Bharat.</p>
+      <p class="footer-desc">India's most powerful rural commerce and distribution ecosystem connecting villages with modern supply chains and digital marketplaces.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-links-grid">
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/model">Hub &amp; Spoke Model</a></li>
+          <li><a href="/ecosystem">Ecosystem</a></li>
+          <li><a href="/partners">Partners</a></li>
+          <li><a href="/blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Partners</h4>
+        <ul>
+          <li><a href="/partners#retail">Retail Partners</a></li>
+          <li><a href="/partners#hub">Hub Partners</a></li>
+          <li><a href="/partners#delivery">Delivery Partners</a></li>
+          <li><a href="/partners#supplier">Suppliers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:support@villagkart.com"><i class="fas fa-envelope me-1"></i> support@villagkart.com</a></li>
+          <li><a href="https://www.www.villagkart.com"><i class="fas fa-globe me-1"></i> www.villagkart.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 VillagKart. All rights reserved. | Empowering Villages. Connecting Bharat.</p>
+  </div>
+</footer>
+<script src="/static/main.js"></script>
+</body>
+</html>

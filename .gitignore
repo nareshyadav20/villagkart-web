@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+crawler.mjs
+scan.mjs
+setup_static_dirs.mjs
