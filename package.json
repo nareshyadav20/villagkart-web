@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "VillagKart Official Web Platform Clone",
   "type": "module",
-  "main": "server.mjs",
   "scripts": {
+    "build": "echo \"Static build complete\"",
     "start": "node server.mjs",
     "dev": "node server.mjs"
   },
