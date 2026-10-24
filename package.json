@@ -4,7 +4,6 @@
   "description": "VillagKart Official Web Platform Clone",
   "type": "module",
   "scripts": {
-    "build": "echo \"Static build complete\"",
     "start": "node server.mjs",
     "dev": "node server.mjs"
   },
